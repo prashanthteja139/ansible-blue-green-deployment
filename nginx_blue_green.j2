@@ -1,0 +1,11 @@
+upstream app_backend {
+    server unix:{{ current_env_path }}/socket.sock fail_timeout=0;
+}
+
+server {
+    listen 80;
+    server_name _;
+    location / {
+        proxy_pass http://app_backend;
+    }
+}
