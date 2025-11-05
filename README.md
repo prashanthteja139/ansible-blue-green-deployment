@@ -45,6 +45,9 @@ Restart Nginx — Gracefully restarts the service without downtime.
 Mark New Environment Active — Saves new active environment for future deployments.
 
 📦 Usage
+
+
+
 1️⃣ Clone the repository:
 git clone https://github.com/<your-username>/ansible-blue-green-deployment.git
 cd ansible-blue-green-deployment
