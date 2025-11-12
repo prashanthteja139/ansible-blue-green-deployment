@@ -90,7 +90,7 @@ Ansible Vault: Store sensitive credentials securely.
 
 Monitoring: Use Prometheus or Grafana to track deployment health and latency.
 
-🧩 Example CI/CD Integration
+ Example CI/CD Integration
 - name: Deploy Application
   uses: dawidd6/action-ansible-playbook@v2
   with:
@@ -100,7 +100,7 @@ Monitoring: Use Prometheus or Grafana to track deployment health and latency.
     options: |
       -e "branch=release-v2"
 
-🧠 Best Practices
+Best Practices
 
 Use Blue-Green deployment for production workloads.
 
