@@ -10,7 +10,7 @@
     repo_url: "https://github.com/example/myapp.git"
     branch: "main"
     nginx_config_path: /etc/nginx/conf.d/default.conf
-
+#tasks to execute 
   tasks:
     - name: Check current active environment
       command: cat {{ active_env_file }}
