@@ -1,7 +1,7 @@
 upstream app_backend {
     server unix:{{ current_env_path }}/socket.sock fail_timeout=0;
 }
-
+#this is used as templete#
 server {
     listen 80;
     server_name _;
